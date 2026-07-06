@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HO4</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container my-5 text-center">
+        <h1 class="fw-bold">Cafe, Ano Tara?</h1>
+        <b class="fs-5">by Sidney Tigas of S16 Team 4</b>
+        
+        <div class="my-4">
+        <div class="row g-4 mt-2">
+            
+            <div class="col-12 col-lg-4">
+                <div class="chart-card">
+                    <h3>User Demographic</h3>
+                    <div class="chart-graph">
+                        <canvas id="demographicChart"></canvas>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-lg-4">
+                <div class="chart-card">
+                    <h3>Most Searched Cafe Location by Month</h3>
+                    <div class="chart-graph">
+                        <canvas id="locationChart"></canvas>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-lg-4">
+                <div class="chart-card">
+                    <h3>Weekly Web Traffic</h3>
+                    <div class="chart-graph">
+                        <canvas id="trafficChart"></canvas>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
